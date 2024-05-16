@@ -1,5 +1,7 @@
 # Regression with a 4-Layer Feed-Forward Neural Network
 
+Note: In this project, I used pytorch just to do matrix multiplications on the gpu. I didn't use any of the machine learning functionality of pytorch.
+
   In this project, we are tackling 2 regression problems with the same neural network. The neural network is a 4-layer feed-forward neural network with dropout, weight decay, momentum and cosign annealing learning rate. We are implementing our neural network with 2 datasets:
 ## 1) Student Performance Dataset :
   ### Predictor Variables
