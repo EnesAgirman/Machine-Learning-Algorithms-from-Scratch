@@ -12,6 +12,9 @@ Note: In this project, I used pytorch just to do matrix multiplications on the g
   - Sample Question Papers Practiced: The total number of practiced sample question papers (0 - 9 integer)
   ### Target Variable
   - Performance Index: Represents the overall academic success of the student (10 - 100 integer)
+ 
+The dataset source: https://www.kaggle.com/datasets/nikhil7280/student-performance-multiple-linear-regression/data
+
 ## 2) Graduate Admission Dataset [2]:
   ### Predictor Variables
   - GRE Score: GRE score of the student. (0 - 340 integer)
@@ -23,6 +26,8 @@ Note: In this project, I used pytorch just to do matrix multiplications on the g
   - Research Experience: If the student has research experience or not (either 1 or 0)
  ### Target Variable
   - Chance of Admit: The student’s chance of admittance to the graduate school (0 - 1 float)
+
+The dataset source: https://www.kaggle.com/datasets/mohansacharya/graduate-admissions
 
 These datasets are put through PCA to have 4 predictor variables in the student performance dataset and 5 predictor variables in the graduate admission dataset. The result of the PCA part is in datasets\graduate_admission/Admission_6pc.csv and datasets\student_performance/Performance.csv for the graduate admission and student performance datasets respectively.
 
